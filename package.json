@@ -1,0 +1,20 @@
+{
+  "name": "ui_automation",
+  "version": "1.0.0",
+  "description": "WEB UI Automation test task for UnitSpace",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "e2eTest": "mocha src/tests/e2e.test.js --no-timeouts --reporter mochawesome"
+  },
+  "author": "Oleksii Martseniuk",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^101.0.0",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.1.2"
+  }
+}
