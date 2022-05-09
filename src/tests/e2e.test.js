@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import {runChromeDriver} from "../configs/driver.configs.js";
-import {maximizeWindow} from "../configs/driver.configs.js";
+import {runChromeDriver} from "../configs/driver/driver.configs.js";
+import {maximizeWindow} from "../configs/driver/driver.configs.js";
 import {LoginPage} from "../components/pages/loginPage/login.page.js";
 import {ProductsPage} from "../components/pages/productsPage/products.page.js";
 import {HeaderComponent} from "../components/pages/shared.components/header.component.js";

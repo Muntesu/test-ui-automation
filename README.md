@@ -10,10 +10,8 @@
 
 ## Configuration:
 
-1. Set up browser drivers for your OS:
-https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
-2. Clone the repository and run command `npm install`;
-3. Take a look at `package.json` scripts;
+1. Clone the repository and run command `npm install`;
+2. Take a look at `package.json` scripts;
 
 ### How to run tests:
  run purchase flow test using npm command `npm run e2eTest` OR run it manually using scripts in `package.json` file
