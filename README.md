@@ -7,6 +7,7 @@
 * Mochawesome - test result reporter;
 * Chai - assertion library;
 * Faker - for generating fake/random data;
+* eslintrc.json - syntax validation/rules;
 
 ## Configuration:
 
